@@ -1,3 +1,6 @@
+body{
+  width:1200px;
+}
 h1{
   font-size:20px;
   font-weight: bold;
@@ -7,7 +10,17 @@ h1{
 .header{
   width: 100%;
   height: 50px;
+
 }
+
 .header-title{
   align-items: center;
+}
+
+.top-image{
+  background-image: url(top-image.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  position: relative;
 }
